@@ -25,5 +25,5 @@ def main():
     print(len(movies))
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
