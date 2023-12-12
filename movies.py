@@ -6,7 +6,7 @@ import json
 def main():
     """ Read the movies from the file """
     movies = []
-    with open('data\movies.json', 'r', encoding='utf-8') as f:
+    with open('data/movies.json', 'r', encoding='utf-8') as f:
         movies_str = f.read()
         movies_json = json.loads(movies_str)
         for movie_json in movies_json:
